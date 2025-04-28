@@ -17,8 +17,8 @@ namespace WebApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Kullanıcı kaydını işleme al (veritabanına kaydet vb.)
-                return RedirectToAction("Index", "Home"); // Örnek: ana sayfaya yönlendirme
+                // KullanÄ±cÄ± kaydÄ±nÄ± iÅŸleme al (veritabanÄ±na kaydet vb.)
+                return RedirectToAction("Index", "Home"); // Ã–rnek: ana sayfaya yÃ¶nlendirme
             }
 
             return View(model);
@@ -36,8 +36,8 @@ namespace WebApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Giriş yapma işlemi (kimlik doğrulama vb.)
-                return RedirectToAction("Dashboard", "Home"); // Örnek: bir kullanıcı paneline yönlendirme
+                // GiriÅŸ yapma iÅŸlemi (kimlik doÄŸrulama vb.)
+                return RedirectToAction("Dashboard", "Home"); // Ã–rnek: bir kullanÄ±cÄ± paneline yÃ¶nlendirme
             }
 
             return View(model);
