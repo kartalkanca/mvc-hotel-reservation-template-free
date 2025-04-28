@@ -7,11 +7,11 @@ namespace SimpleMvcApp.Controllers
         // Ana sayfa
         public IActionResult Index()
         {
-            Console.WriteLine("Index aksiyonu çalýþtý!");
+            Console.WriteLine("Index aksiyonu Ã§alÃ½Ã¾tÃ½!");
             return View();
         }
 
-        // Gizlilik sayfasý
+        // Gizlilik sayfasÄ±
         public IActionResult Privacy()
         {
             return View();
