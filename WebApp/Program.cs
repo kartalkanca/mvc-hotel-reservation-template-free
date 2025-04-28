@@ -30,6 +30,6 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-Console.WriteLine("Uygulama çalýþýyor, http://localhost:5000/ adresine gidin.");
+Console.WriteLine("Uygulama Ã§alÄ±ÅŸÄ±yor, http://localhost:5000/ adresine gidin.");
 
 app.Run();
